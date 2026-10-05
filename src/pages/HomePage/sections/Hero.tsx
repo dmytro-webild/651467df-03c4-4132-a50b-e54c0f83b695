@@ -75,14 +75,14 @@ const HeroInline = () => {
           </motion.div>
 
           <motion.h1
-            className="text-9xl font-normal text-balance leading-none tracking-tight"
+            className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-normal text-balance leading-tight tracking-tight"
             initial="hidden"
             animate="visible"
             transition={{ staggerChildren: 0.1, delayChildren: 0.25 }}
           >
             {(() => {
-              const titleWords = "Custom Floral Arrangements".split(" ");
-              const highlightWords = "& Eternal Roses" ? "& Eternal Roses".split(" ") : [];
+              const titleWords = "Turn Every Special Moment Into".split(" ");
+              const highlightWords = "An Eternal Memory".split(" ");
               const allWords = [...titleWords, ...highlightWords];
 
               return allWords.map((word, i) => {
