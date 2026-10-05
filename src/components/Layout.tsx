@@ -10,14 +10,14 @@ export default function Layout() {
     <StyleProvider buttonVariant="default" siteBackground="none" heroBackground="none">
       <SiteBackgroundSlot />
       <NavbarCenteredOverlay
-                logo="Monoblock"
+                logo="Mejia's Eternal Flowers"
                 navItems={[
                   { name: "About", href: "#about" },
-                  { name: "Collection", href: "#collection" },
+                  { name: "Arrangements", href: "#collection" },
                   { name: "Reviews", href: "#testimonials" },
                   { name: "FAQ", href: "#faq" },
                 ]}
-                ctaButton={{ text: "Shop Now", href: "#collection" }}
+                ctaButton={{ text: "Order on Instagram", href: "https://instagram.com/mejia_eternalflowers_decor" }}
               />
       <main className="flex-grow">
         <Outlet />
